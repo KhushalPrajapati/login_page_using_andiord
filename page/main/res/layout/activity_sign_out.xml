@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/kings_cross_station"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/bg_desc"
+        android:alpha="0.6" />
+
+    <!-- Optional scrim overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/welcome_scrim" />
+
+    <!-- Foreground UI elements -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:id="@+id/textGreeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:letterSpacing="0.02"
+            android:paddingHorizontal="12dp"
+            android:shadowColor="#80000000"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="6"
+            android:text="You’ve returned to the Muggle World"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btnBackToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Platform 9¾"
+            android:backgroundTint="#2C0202"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</FrameLayout>

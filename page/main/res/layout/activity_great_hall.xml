@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#111"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true">
+
+        <ImageView
+            android:id="@+id/imgGryffindor"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gryffindor"
+            android:contentDescription="Gryffindor" />
+
+        <ImageView
+            android:id="@+id/imgSlytherin"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/slytherin"
+            android:contentDescription="Slytherin" />
+
+        <ImageView
+            android:id="@+id/imgRavenclaw"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ravenclaw"
+            android:contentDescription="Ravenclaw" />
+
+        <ImageView
+            android:id="@+id/imgHufflepuff"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hufflepuff"
+            android:contentDescription="Hufflepuff" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to the Muggle World"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#800000"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

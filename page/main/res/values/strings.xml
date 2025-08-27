@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hogwarts</string>
+    <string name="bg_desc">Hogwarts background</string>
+    <string name="crest_desc">Hogwarts crest</string>
+
+    <string name="welcome_placeholder">Welcome to Hogwarts, dear wizard</string>
+    <string name="welcome_format">Welcome to Hogwarts, dear %1$s</string>
+    <string name="welcome_sub">Your journey of magic begins now.</string>
+    <string name="explore_magic">Enter Great Hall</string>
+</resources>
